@@ -1,0 +1,56 @@
+*{
+    margin:0;
+}
+body{
+    font-family:  font-family="Tajawal", serif; 
+    width: 100%;
+}
+.header{
+    background-color:rgb(130, 18, 63); 
+    position: relative;
+    height:auto;
+    min-height: 175px;
+    display: flex;
+   
+}
+.logo{
+    height:200px;
+    width:100px;
+    /* position: relative; */
+    display:flex;
+    gap:10px;
+    justify-content: space-between;
+}
+.head{
+    color:white;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px 5px 150px;
+    display: block;
+    animation:bounce 10s infinite ease-out;
+
+
+}
+@keyframes bounce{
+    0% {transform: translateX(0px);}
+    50% {transform: translateX(100%);}
+    100% {transform: translateX(0px);}
+}
+
+#wrap{
+    height:50px;
+    margin:0;
+  
+    position: relative;
+    background-color: rgb(33, 22, 22);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+#wrap a{
+    text-decoration-color: none;
+     color: rgb(239, 241, 241);
+}

@@ -1,0 +1,28 @@
+@keyframes bounce{
+    0% {scale:1;}
+    50% {scale:1.2;}
+    100% {scale:1;}
+}
+button{
+    height:100px;
+    width:100px;
+    background-color: blue;
+    color:aqua;
+    transition:all 2s ease-in-out;
+    border-radius: 50%;
+    /* animation: bounce 1s 4; */
+}
+button:hover{
+    /* width:300px; */
+    scale:1.2;
+}
+@keyframes zoom{
+    0% {scale:1;}
+    50% {scale:1.2;}
+    100% {scale:1;}
+}
+.heart {
+    color:red;
+    transition: all 1s ease-in-out;
+    animation: zoom 1s infinite;
+}

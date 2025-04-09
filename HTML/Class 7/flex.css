@@ -1,0 +1,38 @@
+/* .container{
+    height:500px;
+    width:500px;
+    border:solid black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item:first-child{
+    margin-right: 10px;;
+} */
+.item{
+    /* height:100px;
+    width:100px; */
+    background-color: lightblue;
+    text-align: center;
+    padding:60px;
+}
+/* .box1{
+    background-color: aqua;
+    height:50px;
+}
+.box2{
+    background-color: blueviolet;
+    height:30px;
+}
+.box3{
+    background-color: blue;
+    height:20px;
+    flex-grow: 1;
+} */
+.container1{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 150px);
+    gap:10px;
+}
+ 
